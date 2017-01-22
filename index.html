@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+    body {background-color:linen;
+          width:1000px;
+          margin:0px auto;
+          font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    }
+    
+    label {color:brown;
+    }
+    
+    
+  </style>  
+    <meta charset="utf-8">
+    <title>Responsive Web Design Intro</title>
+  </head>
+  <body>
+    <p><b>Responsive web design</b> is used to create web pages that respond to the user’s behavior and environment based on platform, screen size and orientation. It consists of a combination of flexible grids and layouts, images and CSS media queries. When a user switches from their laptop to iPad, the website should automatically adapt to accommodate for resolution, image size and scripting abilities. If the website is properly setup, it should automatically respond to the user’s preferences. For example, when a user is shopping on an e-commerce site views specific products, the website may respond to the user’s selections and provide suggested products to view.</p>
+
+    <p>The importance of responsive web design is to be flexible in design. By creating layouts that utilize fluid grids, fluid images and smart mark-up, it allows for easy adaptation to various media. In instances where there is an extreme size change, it may be helpful to create a separate style sheet.</p> 
+   <form>
+      <fieldset>
+        <label>For more information please provide the following:</label>
+        <p>
+        <label>Name:
+        <input type="text" name="name" required>
+        </label> 
+
+        <label>Best time to contact:
+          <input type="number" min="1" max="12" required>
+        </label>
+
+        <label>am
+          <input type="checkbox" name="morning" value="am">
+        </label>
+        <label>pm
+          <input type="checkbox" name="evening" value="pm">
+        </label>
+
+        <label>Setup a meeting on
+          <input type="date" name="pickup" min="2017-01-23" max="2017-02-23">
+        </label>
+        <input type="submit" name="Submit">
+          
+      </fieldset>
+    </form> 
+  </body>
+</html>
